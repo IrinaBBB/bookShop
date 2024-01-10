@@ -4,7 +4,9 @@ jdk:
 before_install:
   - chmod +x mvnw
 
-branch: main
+branches:
+  only:
+    - main
 
 deploy:
   provider: heroku
