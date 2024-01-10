@@ -11,6 +11,5 @@ deploy:
   api_key:
     secure: $HEROKU_TOKEN
   app: "book-shop-demo"
-  branches:
-    only:
-      - main
+  on:
+    branch: main
