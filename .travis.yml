@@ -10,8 +10,7 @@ before_deploy:
 
 deploy:
   provider: heroku
-  api_key:
-    secure: $HEROKU_TOKEN
+  api_key: $HEROKU_TOKEN
   app: "book-shop-demo"
   on:
     branch: main
