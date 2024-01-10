@@ -4,6 +4,8 @@ jdk:
 before_install:
   - chmod +x mvnw
 
+branch: main
+
 deploy:
   provider: heroku
   api_key:
