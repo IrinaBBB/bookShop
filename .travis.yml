@@ -5,6 +5,7 @@ before_install:
   - chmod +x mvnw
 
 before_deploy:
+  - gem install faraday -v 2.8.1
   - gem install faraday-net_http -v 3.0.2
 
 deploy:
