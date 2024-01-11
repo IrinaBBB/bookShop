@@ -1,6 +1,9 @@
 language: java
 jdk:
   - openjdk8
+  
+before_install:
+  - chmod +x ./gradlew
 
 before_deploy:
   - gem install faraday -v 2.8.1
